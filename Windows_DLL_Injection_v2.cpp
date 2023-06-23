@@ -78,6 +78,8 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 
+	/* code to continue */
+	
 	// DLL loaded successfully
 	std::cout << "DLL loaded into process memory successfully!" << std::endl;
 
