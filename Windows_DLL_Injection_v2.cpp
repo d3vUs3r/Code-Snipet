@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
 	std::cout << "Attached to the process successfully!" << std::endl;
 
 	// load DLL into memory
-	HANDLE dll = CreateFileA("C:\\\\Users\\root\\Source\\Repos\\TestLearn\\Release\\T1546.010.dll", GENERIC_READ, NULL, NULL, OPEN_EXISTING, NULL, NULL);
+	HANDLE dll = CreateFileA("T1546.010.dll", GENERIC_READ, NULL, NULL, OPEN_EXISTING, NULL, NULL);
 	if (dll == INVALID_HANDLE_VALUE) {
 		std::cout << "Failed to open the DLL file. Error code: " << GetLastError() << std::endl;
 		CloseHandle(hProcess);
