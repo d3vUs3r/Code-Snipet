@@ -98,6 +98,5 @@ int MiniDump()
 
     std::cout << "Minidump saved to " << szDumpPath << "\n";
 
-
     return 0;
 }
